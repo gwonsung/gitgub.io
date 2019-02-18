@@ -1,0 +1,1054 @@
+var tree_data1 = [ {
+	"id" : "CAT14893077874821326751",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 7,
+	"depth" : 1,
+	"text" : "마이스페이스",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148930865911469753437",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 8,
+	"depth" : 1,
+	"text" : "[R]기업포털 구축",
+	"selectable" : false,
+	"children" : false,
+	"nodes" : [ {
+		"id" : "CAT148933691719258133035",
+		"parentKey" : "CAT148930865911469753437",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "그룹웨어 운영",
+		"selectable" : false,
+		"children" : false
+	},{
+		"id" : "CAT148933691719258133035",
+		"parentKey" : "CAT148930865911469753437",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "스페이스 구축",
+		"selectable" : false,
+		"children" : false
+	},{
+		"id" : "CAT148933691719258133035",
+		"parentKey" : "CAT148930865911469753437",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "스페이스 기획",
+		"selectable" : false,
+		"children" : false
+	}]
+}, {
+	"id" : "CAT14893092899017827777",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 9,
+	"depth" : 2,
+	"text" : "그룹웨어 운영",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148931002484090065830",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 10,
+	"depth" : 1,
+	"text" : "스페이스 구축",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT148933691719258133035",
+		"parentKey" : "CAT148931002484090065830",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "스페이스 기획",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148933792289978753999",
+		"parentKey" : "CAT148931002484090065830",
+		"sortOrdr" : 2,
+		"depth" : 2,
+		"text" : "02. 경영정보",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148933881767935454886",
+		"parentKey" : "CAT148931002484090065830",
+		"sortOrdr" : 3,
+		"depth" : 2,
+		"text" : "03. Database",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148933975351896928697",
+		"parentKey" : "CAT148931002484090065830",
+		"sortOrdr" : 4,
+		"depth" : 2,
+		"text" : "04. Firewall",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148934048707182949678",
+		"parentKey" : "CAT148931002484090065830",
+		"sortOrdr" : 5,
+		"depth" : 2,
+		"text" : "05. Network",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148934152405487774213",
+		"parentKey" : "CAT148931002484090065830",
+		"sortOrdr" : 6,
+		"depth" : 2,
+		"text" : "06. O/S",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148934236954440829355",
+		"parentKey" : "CAT148931002484090065830",
+		"sortOrdr" : 7,
+		"depth" : 2,
+		"text" : "07. SQL튜닝",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+}, {
+	"id" : "CAT148931095943578419501",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 11,
+	"depth" : 1,
+	"text" : "업무보고",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148931156863655677205",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 12,
+	"depth" : 1,
+	"text" : "월이슈공유회의",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148931225472772206299",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 13,
+	"depth" : 1,
+	"text" : "인수인계",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148931280230630787963",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 14,
+	"depth" : 1,
+	"text" : "[ERP]01.기준정보",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148931336166277313621",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 15,
+	"depth" : 1,
+	"text" : "[ERP]02.구매관리",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148931386936284823317",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 16,
+	"depth" : 1,
+	"text" : "[ERP]03.생산관리",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT14893144415773443416",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 17,
+	"depth" : 1,
+	"text" : "[ERP]04.영업관리",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148931546206448193059",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 18,
+	"depth" : 1,
+	"text" : "[ERP]05.재고관리",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT14893450173218294618",
+		"parentKey" : "CAT148931546206448193059",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "[ERP]01.물류(WMS) 이슈 관리",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148934618652989556921",
+		"parentKey" : "CAT148931546206448193059",
+		"sortOrdr" : 2,
+		"depth" : 2,
+		"text" : "[ERP]02.CJ 3자물류 I/F TFT_2010",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+}, {
+	"id" : "CAT14893162762287705444",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 19,
+	"depth" : 1,
+	"text" : "[ERP]06.재무회계",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148931705570005457118",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 20,
+	"depth" : 1,
+	"text" : "[ERP]07.원가관리",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT148934739885860384605",
+		"parentKey" : "CAT148931705570005457118",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "[ERP]01.표준원가 설정&운영",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148934846500818057740",
+		"parentKey" : "CAT148931705570005457118",
+		"sortOrdr" : 2,
+		"depth" : 2,
+		"text" : "[ERP]02.원가 마감",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+}, {
+	"id" : "CAT148931830021370867763",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 21,
+	"depth" : 1,
+	"text" : "[ERP]08.행사품의서/ISP 관리",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT148935020839529927023",
+		"parentKey" : "CAT148931830021370867763",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "[ERP]01.ISP비용집계TFT",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+}, {
+	"id" : "CAT148931930831527677883",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 22,
+	"depth" : 1,
+	"text" : "[ERP]09.공급계획관리",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148931989863233383374",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 23,
+	"depth" : 1,
+	"text" : "[ERP]98.DBA",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT148935195527688886409",
+		"parentKey" : "CAT148931989863233383374",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "[ERP]10.ERP속도개선안정화",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+}, {
+	"id" : "CAT148932131209708503071",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 24,
+	"depth" : 1,
+	"text" : "[System]01.전산기획",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT148935349589816893567",
+		"parentKey" : "CAT148932131209708503071",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "[System]01. ISP업무",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT14893542522593144795",
+		"parentKey" : "CAT148932131209708503071",
+		"sortOrdr" : 2,
+		"depth" : 2,
+		"text" : "[System]02. ITGC",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148935498468602321322",
+		"parentKey" : "CAT148932131209708503071",
+		"sortOrdr" : 3,
+		"depth" : 2,
+		"text" : "[System]03. 정보보안정책",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+}, {
+	"id" : "CAT148932236435685202256",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 25,
+	"depth" : 1,
+	"text" : "[System]02.보안",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT148935686675813797249",
+		"parentKey" : "CAT148932236435685202256",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "[System]01. 교육",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148935776067025192626",
+		"parentKey" : "CAT148932236435685202256",
+		"sortOrdr" : 2,
+		"depth" : 2,
+		"text" : "[System]02. 보안운영",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT14893584913226660267",
+		"parentKey" : "CAT148932236435685202256",
+		"sortOrdr" : 3,
+		"depth" : 2,
+		"text" : "[System]03. 유지보수",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+}, {
+	"id" : "CAT148932327328127802255",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 26,
+	"depth" : 1,
+	"text" : "[System]03.System관리",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT148936046448926789902",
+		"parentKey" : "CAT148932327328127802255",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "[System]01. 서버",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148936126614410218491",
+		"parentKey" : "CAT148932327328127802255",
+		"sortOrdr" : 2,
+		"depth" : 2,
+		"text" : "[System]02. 백업/복구",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT14893621873978780162",
+		"parentKey" : "CAT148932327328127802255",
+		"sortOrdr" : 3,
+		"depth" : 2,
+		"text" : "[System]03. 튜닝",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+}, {
+	"id" : "CAT148932448279666908356",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 27,
+	"depth" : 1,
+	"text" : "[System]04.네트워크",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT148936312266035005949",
+		"parentKey" : "CAT148932448279666908356",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "[System]01. 유선",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148936405845875362441",
+		"parentKey" : "CAT148932448279666908356",
+		"sortOrdr" : 2,
+		"depth" : 2,
+		"text" : "[System]02. 무선",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+}, {
+	"id" : "CAT148932525470437591950",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 28,
+	"depth" : 1,
+	"text" : "[System]05.자원관리",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT148936543085124568206",
+		"parentKey" : "CAT148932525470437591950",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "[System]01. TCO",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT14893661739720996137",
+		"parentKey" : "CAT148932525470437591950",
+		"sortOrdr" : 2,
+		"depth" : 2,
+		"text" : "[System]02. S/W License",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148936708951350349409",
+		"parentKey" : "CAT148932525470437591950",
+		"sortOrdr" : 3,
+		"depth" : 2,
+		"text" : "[System]03. 자산실사",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148936794862802511187",
+		"parentKey" : "CAT148932525470437591950",
+		"sortOrdr" : 4,
+		"depth" : 2,
+		"text" : "[System]04. VMS",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT14893687436175829930",
+		"parentKey" : "CAT148932525470437591950",
+		"sortOrdr" : 5,
+		"depth" : 2,
+		"text" : "[System]05. 기타장비",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+}, {
+	"id" : "CAT148932585082623676604",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 29,
+	"depth" : 1,
+	"text" : "[WEB개발]01.개발 환경 구축 ",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148932640857369865822",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 30,
+	"depth" : 1,
+	"text" : "[WEB개발]02.교육 및 기술 전수",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT14893270400289774855",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 31,
+	"depth" : 1,
+	"text" : "[WEB개발]03.정보시스템 구축 및 안정화 지원",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148932770080523173264",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 32,
+	"depth" : 1,
+	"text" : "[WEB개발]04.온라인 사이트 개발 및 운영 지원",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT14893282254816432637",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 33,
+	"depth" : 1,
+	"text" : "[경영정보]01.관리손익",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT14893713601803898195",
+		"parentKey" : "CAT14893282254816432637",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "[경영정보]01.영업비용집계TFT(2차)_2010",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148937254447478518802",
+		"parentKey" : "CAT14893282254816432637",
+		"sortOrdr" : 2,
+		"depth" : 2,
+		"text" : "[경영정보]02.영업비용회의체안정화_2011",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+}, {
+	"id" : "CAT148932939554879485593",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 34,
+	"depth" : 1,
+	"text" : "[경영정보]02.전략원가시스템구축",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "CAT148932989918715929888",
+	"parentKey" : "ROOT",
+	"sortOrdr" : 35,
+	"depth" : 1,
+	"text" : "[경영정보]03. SFA System 구축",
+	"selectable" : false,
+	"nodes" : [ {
+		"id" : "CAT148937380411754737919",
+		"parentKey" : "CAT148932989918715929888",
+		"sortOrdr" : 1,
+		"depth" : 2,
+		"text" : "[경영정보]01. Contents",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "CAT148937483904785324881",
+		"parentKey" : "CAT148932989918715929888",
+		"sortOrdr" : 2,
+		"depth" : 2,
+		"text" : "[경영정보]02. Web",
+		"selectable" : false,
+		"children" : false
+	} ],
+	"children" : false
+} ];
+
+var tree_data2 = [ {
+	"id" : "WKS228393596051486621677",
+	"depth" : 1,
+	"text" : "(육포) 원료용 쇠고기 재고관리",
+	"href" : "/wks/view/wksMain?wksId=WKS228393596051486621677",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS233395551835756064355",
+	"depth" : 1,
+	"text" : "17추석 선물세트 표시문안 검토용 스페이스",
+	"href" : "/wks/view/wksMain?wksId=WKS233395551835756064355",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS165996177441880098604",
+	"depth" : 1,
+	"text" : "Sempio Cycling Club",
+	"href" : "/wks/view/wksMain?wksId=WKS165996177441880098604",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS3091001390820378139",
+	"depth" : 1,
+	"text" : "Template of PI",
+	"href" : "/wks/view/wksMain?wksId=WKS3091001390820378139",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS189301860021029961182",
+	"depth" : 1,
+	"text" : "TM_할인점 업무 SPACE ",
+	"href" : "/wks/view/wksMain?wksId=WKS189301860021029961182",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS130573294793902732484",
+	"depth" : 1,
+	"text" : "TPM 컨설팅",
+	"href" : "/wks/view/wksMain?wksId=WKS130573294793902732484",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS243827002710468014430",
+	"depth" : 1,
+	"text" : "[Test2]경영혁신팀",
+	"href" : "/wks/view/wksMain?wksId=WKS243827002710468014430",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS86841654139828381293",
+	"depth" : 1,
+	"text" : "간장 업무 스페이스",
+	"href" : "/wks/view/wksMain?wksId=WKS86841654139828381293",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS55779118182997253266",
+	"depth" : 1,
+	"text" : "경영지원본부",
+	"href" : "/wks/view/wksMain?wksId=WKS55779118182997253266",
+	"selectable" : false,
+	"children" : [ {
+		"id" : "WKS5578268384258196208",
+		"parentKey" : "WKS55779118182997253266",
+		"depth" : 2,
+		"text" : "경영지원본부 2019년 사업계획",
+		"href" : "/wks/view/wksMain?wksId=WKS5578268384258196208",
+		"selectable" : false,
+		"children" : false
+	} ]
+}, {
+	"id" : "WKS208602238384294426271",
+	"depth" : 1,
+	"text" : "경영혁신팀",
+	"href" : "/wks/view/wksMain?wksId=WKS208602238384294426271",
+	"selectable" : false,
+	"children" : [ {
+		"id" : "WKS277450190736275514871",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[B]개발Infra",
+		"href" : "/wks/view/wksMain?wksId=WKS277450190736275514871",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS277449797812827995422",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[B]경영정보시스템",
+		"href" : "/wks/view/wksMain?wksId=WKS277449797812827995422",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS277449626599742625390",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[B]기간시스템",
+		"href" : "/wks/view/wksMain?wksId=WKS277449626599742625390",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS159352652114148775870",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[B]시스템Infra",
+		"href" : "/wks/view/wksMain?wksId=WKS159352652114148775870",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS27744997600271661976",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[B]의사결정&성과평가",
+		"href" : "/wks/view/wksMain?wksId=WKS27744997600271661976",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS277411246321351461502",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[C]개발 TIP",
+		"href" : "/wks/view/wksMain?wksId=WKS277411246321351461502",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS3660209258643339361",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[C]공통",
+		"href" : "/wks/view/wksMain?wksId=WKS3660209258643339361",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS277411673566482613691",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[C]교육",
+		"href" : "/wks/view/wksMain?wksId=WKS277411673566482613691",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS277411900180542688587",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[C]매뉴얼",
+		"href" : "/wks/view/wksMain?wksId=WKS277411900180542688587",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS286106116587999135675",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[C]업무보고",
+		"href" : "/wks/view/wksMain?wksId=WKS286106116587999135675",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS32280366344614948550",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[C]워크샵",
+		"href" : "/wks/view/wksMain?wksId=WKS32280366344614948550",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS277412485135166013664",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[C]월이슈공유회의",
+		"href" : "/wks/view/wksMain?wksId=WKS277412485135166013664",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS277412687620098363875",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[C]인수인계",
+		"href" : "/wks/view/wksMain?wksId=WKS277412687620098363875",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS211157412397828928772",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[P]SWS 구축",
+		"href" : "/wks/view/wksMain?wksId=WKS211157412397828928772",
+		"selectable" : false,
+		"children" : false
+	}, {
+		"id" : "WKS277444341105318733976",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[R]개발Infra",
+		"href" : "/wks/view/wksMain?wksId=WKS277444341105318733976",
+		"selectable" : false,
+		"children" : [{"id":"WKS277444642821688299706","parentKey":"WKS277444341105318733976","depth":3,"text":"AA설계","href":"/wks/view/wksMain?wksId=WKS277444642821688299706","selectable":false,"children":false},{"id":"WKS59238265947078596188","parentKey":"WKS277444341105318733976","depth":3,"text":"DA설계","href":"/wks/view/wksMain?wksId=WKS59238265947078596188","selectable":false,"children":false},{"id":"WKS277445208580566268467","parentKey":"WKS277444341105318733976","depth":3,"text":"대외사이트","href":"/wks/view/wksMain?wksId=WKS277445208580566268467","selectable":false,"children":false}]
+	}, {
+		"id" : "WKS277421804618401172659",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[R]경영정보시스템",
+		"href" : "/wks/view/wksMain?wksId=WKS277421804618401172659",
+		"selectable" : false,
+		"children" : [{"id":"WKS277586961821640988566","parentKey":"WKS277421804618401172659","depth":3,"text":"DW구축","href":"/wks/view/wksMain?wksId=WKS277586961821640988566","selectable":false,"children":false},{"id":"WKS49741028081233265106","parentKey":"WKS277421804618401172659","depth":3,"text":"공급정보","href":"/wks/view/wksMain?wksId=WKS49741028081233265106","selectable":false,"children":false},{"id":"WKS277423227345960298081","parentKey":"WKS277421804618401172659","depth":3,"text":"생산정보","href":"/wks/view/wksMain?wksId=WKS277423227345960298081","selectable":false,"children":false},{"id":"WKS277422118270223765391","parentKey":"WKS277421804618401172659","depth":3,"text":"영업정보","href":"/wks/view/wksMain?wksId=WKS277422118270223765391","selectable":false,"children":false},{"id":"WKS277422431669455367778","parentKey":"WKS277421804618401172659","depth":3,"text":"판촉(ISP)","href":"/wks/view/wksMain?wksId=WKS277422431669455367778","selectable":false,"children":false}]
+	}, {
+		"id" : "WKS277412901808254626414",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[R]기간시스템",
+		"href" : "/wks/view/wksMain?wksId=WKS277412901808254626414",
+		"selectable" : false,
+		"children" : [{"id":"WKS277414976462092185474","parentKey":"WKS277412901808254626414","depth":3,"text":"구매","href":"/wks/view/wksMain?wksId=WKS277414976462092185474","selectable":false,"children":false},{"id":"WKS33451813192932884802","parentKey":"WKS277412901808254626414","depth":3,"text":"기간시스템 월마감","href":"/wks/view/wksMain?wksId=WKS33451813192932884802","selectable":false,"children":false},{"id":"WKS277413306959798772615","parentKey":"WKS277412901808254626414","depth":3,"text":"기준정보","href":"/wks/view/wksMain?wksId=WKS277413306959798772615","selectable":false,"children":false},{"id":"WKS277416682452228228864","parentKey":"WKS277412901808254626414","depth":3,"text":"생산","href":"/wks/view/wksMain?wksId=WKS277416682452228228864","selectable":false,"children":false},{"id":"WKS277418245459009626169","parentKey":"WKS277412901808254626414","depth":3,"text":"자산","href":"/wks/view/wksMain?wksId=WKS277418245459009626169","selectable":false,"children":false},{"id":"WKS277421539619671629084","parentKey":"WKS277412901808254626414","depth":3,"text":"장부","href":"/wks/view/wksMain?wksId=WKS277421539619671629084","selectable":false,"children":false},{"id":"WKS277415293789866789434","parentKey":"WKS277412901808254626414","depth":3,"text":"재고","href":"/wks/view/wksMain?wksId=WKS277415293789866789434","selectable":false,"children":false},{"id":"WKS277413724289965682653","parentKey":"WKS277412901808254626414","depth":3,"text":"주문","href":"/wks/view/wksMain?wksId=WKS277413724289965682653","selectable":false,"children":false},{"id":"WKS277414176617917758975","parentKey":"WKS277412901808254626414","depth":3,"text":"채권","href":"/wks/view/wksMain?wksId=WKS277414176617917758975","selectable":false,"children":false},{"id":"WKS277417937705404672005","parentKey":"WKS277412901808254626414","depth":3,"text":"채무","href":"/wks/view/wksMain?wksId=WKS277417937705404672005","selectable":false,"children":false},{"id":"WKS27741739361223568392","parentKey":"WKS277412901808254626414","depth":3,"text":"품질","href":"/wks/view/wksMain?wksId=WKS27741739361223568392","selectable":false,"children":false},{"id":"WKS277414519653461434670","parentKey":"WKS277412901808254626414","depth":3,"text":"행사","href":"/wks/view/wksMain?wksId=WKS277414519653461434670","selectable":false,"children":false},{"id":"WKS277416314511479275829","parentKey":"WKS277412901808254626414","depth":4,"text":"공급","href":"/wks/view/wksMain?wksId=WKS277416314511479275829","selectable":false,"children":false}]
+	}, {
+		"id" : "WKS61562400948554901792",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[R]기업포털 구축",
+		"href" : "/wks/view/wksMain?wksId=WKS61562400948554901792",
+		"selectable" : false,
+		"children" : [{"id":"WKS58364238016963004412","parentKey":"WKS61562400948554901792","depth":3,"text":"그룹웨어운영","href":"/wks/view/wksMain?wksId=WKS58364238016963004412","selectable":false,"children":false},{"id":"WKS61573144274202895170","parentKey":"WKS61562400948554901792","depth":3,"text":"스페이스 구축","href":"/wks/view/wksMain?wksId=WKS61573144274202895170","selectable":false,"children":false},{"id":"WKS61566027791351737843","parentKey":"WKS61562400948554901792","depth":3,"text":"스페이스 기획","href":"/wks/view/wksMain?wksId=WKS61566027791351737843","selectable":false,"children":false},{"id":"WKS40135461755594924666","parentKey":"WKS61562400948554901792","depth":3,"text":"스페이스 운영","href":"/wks/view/wksMain?wksId=WKS40135461755594924666","selectable":false,"children":false}]
+	}, {
+		"id" : "WKS277445476431666402096",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[R]시스템Infra",
+		"href" : "/wks/view/wksMain?wksId=WKS277445476431666402096",
+		"selectable" : false,
+		"children" : [{"id":"WKS277446429626707016458","parentKey":"WKS277445476431666402096","depth":3,"text":"Network관리","href":"/wks/view/wksMain?wksId=WKS277446429626707016458","selectable":false,"children":false},{"id":"WKS277448805558688487701","parentKey":"WKS277445476431666402096","depth":3,"text":"데이터베이스운영","href":"/wks/view/wksMain?wksId=WKS277448805558688487701","selectable":false,"children":false},{"id":"WKS277448140201369797403","parentKey":"WKS277445476431666402096","depth":3,"text":"서버운영","href":"/wks/view/wksMain?wksId=WKS277448140201369797403","selectable":false,"children":false},{"id":"WKS277446656651242762864","parentKey":"WKS277445476431666402096","depth":3,"text":"전산자산관리","href":"/wks/view/wksMain?wksId=WKS277446656651242762864","selectable":false,"children":false},{"id":"WKS277446170833422471280","parentKey":"WKS277445476431666402096","depth":3,"text":"정보보안","href":"/wks/view/wksMain?wksId=WKS277446170833422471280","selectable":false,"children":false},{"id":"WKS277445936100069263334","parentKey":"WKS277445476431666402096","depth":3,"text":"정보화기획","href":"/wks/view/wksMain?wksId=WKS277445936100069263334","selectable":false,"children":false}]
+	}, {
+		"id" : "WKS277423933902290333539",
+		"parentKey" : "WKS208602238384294426271",
+		"depth" : 2,
+		"text" : "[R]의사결정&성과평가",
+		"href" : "/wks/view/wksMain?wksId=WKS277423933902290333539",
+		"selectable" : false,
+		"children" : [{"id":"WKS277443382798925776435","parentKey":"WKS277423933902290333539","depth":3,"text":"관리손익","href":"/wks/view/wksMain?wksId=WKS277443382798925776435","selectable":false,"children":false},{"id":"WKS277443925074835194713","parentKey":"WKS277423933902290333539","depth":3,"text":"성과평가","href":"/wks/view/wksMain?wksId=WKS277443925074835194713","selectable":false,"children":false},{"id":"WKS277425892873465054307","parentKey":"WKS277423933902290333539","depth":3,"text":"실제원가","href":"/wks/view/wksMain?wksId=WKS277425892873465054307","selectable":false,"children":false},{"id":"WKS277443650551313429191","parentKey":"WKS277423933902290333539","depth":3,"text":"의사결정","href":"/wks/view/wksMain?wksId=WKS277443650551313429191","selectable":false,"children":false},{"id":"WKS277443109707319245546","parentKey":"WKS277423933902290333539","depth":3,"text":"표준원가","href":"/wks/view/wksMain?wksId=WKS277443109707319245546","selectable":false,"children":false}]
+	} ]
+}, {
+	"id" : "WKS82384125701565965235",
+	"depth" : 1,
+	"text" : "계획 생산 TF팀",
+	"href" : "/wks/view/wksMain?wksId=WKS82384125701565965235",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS101245355260947622701",
+	"depth" : 1,
+	"text" : "고추분 사용 정리",
+	"href" : "/wks/view/wksMain?wksId=WKS101245355260947622701",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS80827222850051119962",
+	"depth" : 1,
+	"text" : "공유문서 테스트",
+	"href" : "/wks/view/wksMain?wksId=WKS80827222850051119962",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS33446721448765078929",
+	"depth" : 1,
+	"text" : "관리파트 업무 공지사항",
+	"href" : "/wks/view/wksMain?wksId=WKS33446721448765078929",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS11196857458594728528",
+	"depth" : 1,
+	"text" : "구매팀 공용",
+	"href" : "/wks/view/wksMain?wksId=WKS11196857458594728528",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS39348100195368484379",
+	"depth" : 1,
+	"text" : "그룹웨어 개발 교육",
+	"href" : "/wks/view/wksMain?wksId=WKS39348100195368484379",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS9917736688977665113",
+	"depth" : 1,
+	"text" : "도면 관리",
+	"href" : "/wks/view/wksMain?wksId=WKS9917736688977665113",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS2225002539426838512",
+	"depth" : 1,
+	"text" : "로컬 수출신고필증",
+	"href" : "/wks/view/wksMain?wksId=WKS2225002539426838512",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS125395351558264884209",
+	"depth" : 1,
+	"text" : "물류 업무 매뉴얼 구축",
+	"href" : "/wks/view/wksMain?wksId=WKS125395351558264884209",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS228460708591593893790",
+	"depth" : 1,
+	"text" : "물류 자료",
+	"href" : "/wks/view/wksMain?wksId=WKS228460708591593893790",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS268988418029086132294",
+	"depth" : 1,
+	"text" : "물류팀",
+	"href" : "/wks/view/wksMain?wksId=WKS268988418029086132294",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS130998591434944398144",
+	"depth" : 1,
+	"text" : "물류파트 일지",
+	"href" : "/wks/view/wksMain?wksId=WKS130998591434944398144",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS104358004474675772902",
+	"depth" : 1,
+	"text" : "박용학 일일보고",
+	"href" : "/wks/view/wksMain?wksId=WKS104358004474675772902",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS8146704295554381709",
+	"depth" : 1,
+	"text" : "사업계획 관리",
+	"href" : "/wks/view/wksMain?wksId=WKS8146704295554381709",
+	"selectable" : false,
+	"children" : true
+}, {
+	"id" : "WKS17075378825614295825",
+	"depth" : 1,
+	"text" : "사외 자료 제공",
+	"href" : "/wks/view/wksMain?wksId=WKS17075378825614295825",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS11276335341248686339",
+	"depth" : 1,
+	"text" : "샘표 뉴욕 오피스 프로젝트",
+	"href" : "/wks/view/wksMain?wksId=WKS11276335341248686339",
+	"selectable" : false,
+	"children" : true
+}, {
+	"id" : "WKS35001306030404035805",
+	"depth" : 1,
+	"text" : "샘표 동영상교육&플랫폼제작 프로젝트 ",
+	"href" : "/wks/view/wksMain?wksId=WKS35001306030404035805",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS100581231256333282001",
+	"depth" : 1,
+	"text" : "샘플 스페이스 <영업>",
+	"href" : "/wks/view/wksMain?wksId=WKS100581231256333282001",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS77295042238375082887",
+	"depth" : 1,
+	"text" : "생산본부 사업과제",
+	"href" : "/wks/view/wksMain?wksId=WKS77295042238375082887",
+	"selectable" : false,
+	"children" : true
+}, {
+	"id" : "WKS31601135141558047306",
+	"depth" : 1,
+	"text" : "선물세트 TFT ",
+	"href" : "/wks/view/wksMain?wksId=WKS31601135141558047306",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS3391943871457272504",
+	"depth" : 1,
+	"text" : "선물세트 관련 각종 취합 업무",
+	"href" : "/wks/view/wksMain?wksId=WKS3391943871457272504",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS8152615180524369137",
+	"depth" : 1,
+	"text" : "설비 검토 업무",
+	"href" : "/wks/view/wksMain?wksId=WKS8152615180524369137",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS82284712556870435154",
+	"depth" : 1,
+	"text" : "설비팀 관리",
+	"href" : "/wks/view/wksMain?wksId=WKS82284712556870435154",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS80809256758083453559",
+	"depth" : 1,
+	"text" : "소재생산팀 사업과제",
+	"href" : "/wks/view/wksMain?wksId=WKS80809256758083453559",
+	"selectable" : false,
+	"children" : true
+}, {
+	"id" : "WKS91984123210599838276",
+	"depth" : 1,
+	"text" : "순작 ",
+	"href" : "/wks/view/wksMain?wksId=WKS91984123210599838276",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS6276788900171094379",
+	"depth" : 1,
+	"text" : "스페이스개발",
+	"href" : "/wks/view/wksMain?wksId=WKS6276788900171094379",
+	"selectable" : false,
+	"children" : true
+}, {
+	"id" : "WKS71418565598539262948",
+	"depth" : 1,
+	"text" : "시스템Infra",
+	"href" : "/wks/view/wksMain?wksId=WKS71418565598539262948",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS14123157640847304115",
+	"depth" : 1,
+	"text" : "식물성 발효 영양음료 개발 ",
+	"href" : "/wks/view/wksMain?wksId=WKS14123157640847304115",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS33536451334057266539",
+	"depth" : 1,
+	"text" : "연구개발1팀 ",
+	"href" : "/wks/view/wksMain?wksId=WKS33536451334057266539",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS28904950369712178193",
+	"depth" : 1,
+	"text" : "연구개발1팀 간장파트 업무용",
+	"href" : "/wks/view/wksMain?wksId=WKS28904950369712178193",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS118982987116520831156",
+	"depth" : 1,
+	"text" : "연구개발2팀 업무 공유",
+	"href" : "/wks/view/wksMain?wksId=WKS118982987116520831156",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS33390677191855378021",
+	"depth" : 1,
+	"text" : "영업5팀 자료실",
+	"href" : "/wks/view/wksMain?wksId=WKS33390677191855378021",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS111981402070238721587",
+	"depth" : 1,
+	"text" : "워크샵 후속작업",
+	"href" : "/wks/view/wksMain?wksId=WKS111981402070238721587",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS98583488668134749474",
+	"depth" : 1,
+	"text" : "이천공장 관리지표",
+	"href" : "/wks/view/wksMain?wksId=WKS98583488668134749474",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS101488974512555375242",
+	"depth" : 1,
+	"text" : "일일업무보고",
+	"href" : "/wks/view/wksMain?wksId=WKS101488974512555375242",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS75688803750932058382",
+	"depth" : 1,
+	"text" : "재무팀 프로젝트",
+	"href" : "/wks/view/wksMain?wksId=WKS75688803750932058382",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS59185368584435182321",
+	"depth" : 1,
+	"text" : "제품창고 업무",
+	"href" : "/wks/view/wksMain?wksId=WKS59185368584435182321",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS16072505617299556859",
+	"depth" : 1,
+	"text" : "주요 업무 파일 (개인)",
+	"href" : "/wks/view/wksMain?wksId=WKS16072505617299556859",
+	"selectable" : false,
+	"children" : false
+}, {
+	"id" : "WKS31484820964616486491",
+	"depth" : 1,
+	"text" : "중장기 과제",
+	"href" : "/wks/view/wksMain?wksId=WKS31484820964616486491",
+	"selectable" : false,
+	"children" : true
+}, {
+	"id" : "WKS9055382825919042419",
+	"depth" : 1,
+	"text" : "회사 규정 모음집",
+	"href" : "/wks/view/wksMain?wksId=WKS9055382825919042419",
+	"selectable" : false,
+	"children" : false
+} ];

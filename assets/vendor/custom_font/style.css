@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?m8l5m4');
+  src:  url('fonts/icomoon.eot?m8l5m4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?m8l5m4') format('truetype'),
+    url('fonts/icomoon.woff?m8l5m4') format('woff'),
+    url('fonts/icomoon.svg?m8l5m4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-trash:before {
+  content: "\e917";
+  color: #666;
+}
+.icon-more:before {
+  content: "\e915";
+  color: #7f7f7f;
+}
+.icon-newwindow:before {
+  content: "\e916";
+  color: #7f7f7f;
+}
+.icon-mail:before {
+  content: "\e90b";
+  color: #595959;
+}
+.icon-space:before {
+  content: "\e90c";
+  color: #595959;
+}
+.icon-board:before {
+  content: "\e900";
+  color: #595959;
+}
+.icon-reservation:before {
+  content: "\e901";
+  color: #595959;
+}
+.icon-calendar:before {
+  content: "\e902";
+  color: #595959;
+}
+.icon-file:before {
+  content: "\e903";
+  color: #7f7f7f;
+}
+.icon-survey:before {
+  content: "\e904";
+  color: #595959;
+}
+.icon-filebox:before {
+  content: "\e905";
+  color: #595959;
+}
+.icon-document-box:before {
+  content: "\e906";
+  color: #595959;
+}
+.icon-organization:before {
+  content: "\e907";
+  color: #595959;
+}
+.icon-task:before {
+  content: "\e908";
+  color: #595959;
+}
+.icon-dashboard:before {
+  content: "\e909";
+  color: #595959;
+}
+.icon-refresh:before {
+  content: "\e90a";
+  color: #7f7f7f;
+}
+.icon-approval:before {
+  content: "\e90d";
+  color: #595959;
+}
+.icon-minutes:before {
+  content: "\e90e";
+  color: #595959;
+}
+.icon-message:before {
+  content: "\e90f";
+  color: #595959;
+}
+.icon-activitystatus:before {
+  content: "\e910";
+  color: #595959;
+}
+.icon-log:before {
+  content: "\e911";
+  color: #595959;
+}
+.icon-attachment:before {
+  content: "\e912";
+  color: #595959;
+}
+.icon-setting:before {
+  content: "\e913";
+  color: #595959;
+}
+.icon-address:before {
+  content: "\e914";
+  color: #595959;
+}

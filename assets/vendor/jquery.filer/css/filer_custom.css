@@ -1,0 +1,22 @@
+.jFiler-items-default .jFiler-item{
+  width:90%;
+  margin:1rem auto;
+  background: #fff;
+  border:1px solid #ccc;
+}
+.text-success{
+  margin-left:5px !important;
+}
+.jFiler-items-default .jFiler-item-assets{
+  top:40%;
+}
+.jFiler-item-title{
+  font-size:1rem;
+  width:95%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.jFiler-items-default .jFiler-item-assets a{
+  padding: 4px 4px 6px 6px;
+}
