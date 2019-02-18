@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>샘표</title>
+<meta name="description" content="">
+<meta name="keywords"    content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<link rel="canonical" href="">
+<!-- vendor -->
+<link rel="stylesheet" href="assets/vendor/fontawesome/css/fontawesome.all.css">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/vendor/custom_font/style.css">
+<link rel="stylesheet" type="text/css" href="assets/vendor/perfect-scrollbar/perfect-scrollbar.css">
+<link rel="stylesheet" type="text/css" href="assets/vendor/jquerymodal/jquery.modal.css">
+<link rel="stylesheet" href="assets/vendor/jquery.filer/css/jquery.filer.css">
+<link rel="stylesheet" href="assets/vendor/jquery.filer/css/themes/jquery.filer-dragdropbox-theme.css">
+<link rel="stylesheet" href="assets/vendor/jquery.filer/css/filer_custom.css">
+<!-- //vendor -->
+<link rel="stylesheet" type="text/css" href="./common/css/common.css">
+<link rel="stylesheet" type="text/css" href="./common/css/style.css">
+<script src="./common/js/jquery.js"></script>
+</head>
+<body>
+
+<div id="gnb" class="has-scrollable-menu">
+  <article class="gnb_wrap">
+    <div class="myspace_area">
+      <p class="txt">MY Space</p>
+      <i class="menu-icon far fa-bell">
+        <button type="button" name="button" class="" onclick="return false">3</button>
+      </i>
+      <button class="space_layer_button" type="button" name="button">
+        <i class="fas fa-caret-right"></i>
+      </button>
+    </div>
+    <div class="menu">
+      <ul class="menu_wrap">
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-dashboard"></i>
+            </span>
+            <p class="menu_txt">대쉬보드</p>
+          </a>
+        </li>
+        <li class="has-child">
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-task"></i>
+            </span>
+            <p class="menu_txt">Tasks</p>
+          </a>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#" class="menu-link">- Task 등록</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 내 Task</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 요청 Task</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 공유 Task</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 전체 Task</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-mail"></i>
+            </span>
+            <p class="menu_txt">연결 메일</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-approval"></i>
+            </span>
+            <p class="menu_txt">연결 결재</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-minutes"></i>
+            </span>
+            <p class="menu_txt">회의록</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-attachment"></i>
+            </span>
+            <p class="menu_txt">첨부파일함</p>
+          </a>
+        </li>
+        <li class="has-child">
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-space"></i>
+            </span>
+            <p class="menu_txt">스페이스</p>
+          </a>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 가입 스페이스</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 내 스페이스</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 종료된 스페이스</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-activitystatus"></i>
+            </span>
+            <p class="menu_txt">개인별 활동 현황</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-log"></i>
+            </span>
+            <p class="menu_txt">활동 로그</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-setting"></i>
+            </span>
+            <p class="menu_txt">스페이스 설정</p>
+          </a>
+        </li>
+      </ul>
+      <ul class="util_wrap clearfix">
+        <li>
+          <i class="icon-message"></i>
+          <p>쪽지</p>
+        </li>
+        <li>
+          <i class="icon-document-box"></i>
+          <p>문서함</p>
+        </li>
+        <li>
+          <i class="icon-board"></i>
+          <p>게시판</p>
+        </li>
+        <li>
+          <i class="icon-organization"></i>
+          <p>조직도</p>
+        </li>
+        <li>
+          <i class="icon-calendar"></i>
+          <p>일정관리</p>
+        </li>
+        <li>
+          <i class="icon-reservation"></i>
+          <p>자원예약</p>
+        </li>
+        <li>
+          <i class="icon-filebox"></i>
+          <p>파일함</p>
+        </li>
+        <li>
+          <i class="icon-survey"></i>
+          <p>설문조사</p>
+        </li>
+        <li>
+          <i class="icon-address"></i>
+          <p>주소록</p>
+        </li>
+      </ul>
+    </div>
+  </article>
+ </div>
+ <div class="space_layer">
+   <div class="space-layer-header">
+     <h6>스페이스 선택</h6>
+       <button type="button" class="btn space_close">X</button>
+   </div>
+   <div class="space_content">
+     <div class="search_wrap">
+       <div class="search_area">
+         <input type="text" name="" value="">
+       </div>
+       <div class="accordion-container">
+         <div class="w-90 mx-auto accordion-content open">
+           <ul>
+             <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+              </div>
+             </li>
+             <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+               <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+              </div>
+             </li>
+             <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+              </div>
+             </li>
+           </ul>
+         </div>
+         <div class="w-100 text-center article-title">
+           <i class="fas fa-sort-up"></i>
+         </div>
+       </div>
+     </div>
+     <div class="w-100 p-relative" style="">
+       <div id="jstree9" class="p-relative treeview has-scrollable position-relative border-0 w-100 p-2" style="height:268px;"></div>
+     </div>
+   </div>
+ </div>
+
+<div id="wrap">
+  <div class="content clearfix">
+    <!-- sub_header -->
+    <div class="sub_header">
+      <h2 class="d-inline-block">회의록</h2>
+      <div class="search_area ml-2">
+        <input type="text" name="" value="" placeholder="검색">
+        <button class="fill_btn" type="button" name="button">상세</button>
+      </div>
+      <p class="readStatus ml-1 d-inline-block"><span>3</span> / 1381</p>
+      <a href="#" class="refresh_btn">
+        <i class="icon-refresh"></i>
+      </a>
+      <!-- <div class="filter_area">
+        <select class="" name="">
+          <option value="">필터</option>
+          <option value="">작성자</option>
+          <option value="">작성일</option>
+          <option value="">필터</option>
+        </select>
+      </div> -->
+      <a href="#meeting_write_Modal" rel="modal:open"><button class="btn btn-dark float-right" type="button" name="button">회의록 작성</button></a>
+      <div class="detail_search clearfix">
+        <div class="ip_writer">
+          <label for="">작성자</label>
+          <input type="text" name="" value="">
+        </div>
+        <div class="ip_participant">
+          <label for="">참여자</label>
+          <input type="text" name="" value="">
+        </div>
+        <div class="ip_content">
+          <label for="">내용</label>
+          <select class="" name="">
+            <option value="">제목+본문</option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+          <input type="text" name="" value="">
+        </div>
+        <div class="ip_period">
+          <label for="">조회기간</label>
+          <button class="curr" type="button" name="button">1개월</button>
+          <button type="button" name="button">3개월</button>
+          <button type="button" name="button">6개월</button>
+          <input type="text" name="" value="">
+          <span>-</span>
+          <input type="text" name="" value="">
+        </div>
+        <button class="search_btn" type="button" name="button">검색</button>
+      </div>
+    </div>
+    <!-- //sub_header -->
+    <!-- contents_area -->
+    <div class="col-12">
+      <div class="table_list w-100 h-100">
+        <table class="w-100">
+          <thead>
+            <tr>
+              <th>제목</th>
+              <th>작성자</th>
+              <th>결재작성여부</th>
+              <th>연결일감</th>
+              <th>등록일</th>
+              <th>설정</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="new">
+              <td><a href="#meeting_view_Modal" rel="modal:open">[식품안전연구센터_이천]1,2분기 펀데이 진행 안내</a><i class="ml-1 icon-file"></i></td>
+              <td>정권성</td>
+              <td>비작성<i class="icon-newwindow"></i></td>
+              <td><a href="#connect_Modal" rel="modal:open">3</a></td>
+              <td>20:27</td>
+              <td><i class="icon-more"></i></td>
+            </tr>
+            <tr>
+              <td>[식품안전연구센터_이천]1,2분기 펀데이 진행 안내</td>
+              <td>정권성</td>
+              <td>비작성</td>
+              <td>3</td>
+              <td>20:27</td>
+              <td><i class="icon-more"></i></td>
+            </tr>
+            <tr>
+              <td>[식품안전연구센터_이천]1,2분기 펀데이 진행 안내</td>
+              <td>정권성</td>
+              <td>비작성</td>
+              <td>3</td>
+              <td>20:27</td>
+              <td><i class="icon-more"></i></td>
+            </tr>
+            <tr>
+              <td>[식품안전연구센터_이천]1,2분기 펀데이 진행 안내</td>
+              <td>정권성</td>
+              <td>비작성</td>
+              <td>3</td>
+              <td>20:27</td>
+              <td><i class="icon-more"></i></td>
+            </tr>
+            <tr>
+              <td>[식품안전연구센터_이천]1,2분기 펀데이 진행 안내</td>
+              <td>정권성</td>
+              <td>비작성</td>
+              <td>3</td>
+              <td>20:27</td>
+              <td><i class="icon-more"></i></td>
+            </tr>
+            <tr>
+              <td>[식품안전연구센터_이천]1,2분기 펀데이 진행 안내</td>
+              <td>정권성</td>
+              <td>비작성</td>
+              <td>3</td>
+              <td>20:27</td>
+              <td><i class="icon-more"></i></td>
+            </tr>
+            <tr>
+              <td>[식품안전연구센터_이천]1,2분기 펀데이 진행 안내</td>
+              <td>정권성</td>
+              <td>비작성</td>
+              <td>3</td>
+              <td>20:27</td>
+              <td><i class="icon-more"></i></td>
+            </tr>
+            <tr>
+              <td>[식품안전연구센터_이천]1,2분기 펀데이 진행 안내</td>
+              <td>정권성</td>
+              <td>비작성</td>
+              <td>3</td>
+              <td>20:27</td>
+              <td><i class="icon-more"></i></td>
+            </tr>
+            <tr>
+              <td>[식품안전연구센터_이천]1,2분기 펀데이 진행 안내</td>
+              <td>정권성</td>
+              <td>비작성</td>
+              <td>3</td>
+              <td>20:27</td>
+              <td><i class="icon-more"></i></td>
+            </tr>
+            <tr>
+              <td>[식품안전연구센터_이천]1,2분기 펀데이 진행 안내</td>
+              <td>정권성</td>
+              <td>비작성</td>
+              <td>3</td>
+              <td>20:27</td>
+              <td><i class="icon-more"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- //contents_area -->
+    <!-- paging -->
+    <div class="paging">
+      <ul class="">
+        <li class="disabled">
+          <a class="" href="#">
+            <i class="fa fa-lg fa-angle-left"></i>
+          </a>
+        </li>
+        <li class="">
+          <a class="" href="#">1</a>
+        </li>
+        <li class="disabled">
+          <a class="" href="#">...</a>
+        </li>
+        <li class="">
+          <a class="" href="#">13</a>
+        </li>
+        <li class="active">
+          <a class="" href="#">14</a>
+        </li>
+        <li class="">
+          <a class="" href="#">15</a>
+        </li>
+        <li class="disabled">
+          <a class="" href="#">...</a>
+        </li>
+        <li class="">
+          <a class="" href="#">24</a>
+        </li>
+        <li class="">
+          <a class="" href="#">
+            <i class="fa fa-lg fa-angle-right"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- //paging -->
+  </div>
+</div>
+
+<!-- 회의록 작성 -->
+<div class="modal fade" id="meeting_write_Modal">
+  <!-- .modal-dialog -->
+  <div class="modal-dialog modal-dialog-overflow" role="document">
+    <!-- .modal-content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="d-inline-block">회의록 작성</h5>
+        <div class="p-relative">
+          <a href="#" class="filer_btn">
+            <i class="mr-1 icon-file"></i>파일첨부
+          </a>
+          <div class="filer-area p-relative">
+            <div class="jFiler jFiler-theme-dragdropbox">
+              <input id="file1" type="file" name="upload[]" multiple="multiple" style="position: absolute; left: -9999px; top: -9999px; z-index: -9999;">
+              <div class="jFiler-input-dragDrop">
+                <div class="jFiler-input-inner">
+                  <!-- <div class="jFiler-input-icon">
+                    <i class="icon-jfi-cloud-up-o"></i>
+                  </div> -->
+                  <div class="jFiler-input-text">
+                    <h3>파일 업로드</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="jFiler-items jFiler-row has-scrollable">
+                <ul class="jFiler-items-list jFiler-items-default">
+                  <li class="jFiler-item" data-jfiler-index="2" style="">
+                    <div class="jFiler-item-container">
+                      <div class="jFiler-item-inner">
+                        <div class="jFiler-item-icon pull-left">
+                          <i class="icon-jfi-file-o jfi-file-type-image jfi-file-ext-png"></i>
+                        </div>
+                        <div class="jFiler-item-info pull-left">
+                          <div class="jFiler-item-title" title="그룹웨어이메일전송오류.png">그룹웨어이메일전송오류1.png</div>
+                          <div class="jFiler-item-others">
+                            <span>size: 209 KB</span>
+                            <span>type: png</span>
+                            <span class="jFiler-item-status">
+                              <div class="jFiler-jProgressBar" style="display: none;">
+                                <div class="bar" style="width: 100%;"></div>
+                              </div>
+                              <div class="jFiler-item-others text-success" style=""><i class="icon-jfi-check-circle"></i> Success</div>
+                            </span>
+                          </div>
+                          <div class="jFiler-item-assets">
+                            <ul class="list-inline">
+                              <li><a class="icon-jfi-trash jFiler-item-trash-action"></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="jFiler-item" data-jfiler-index="2" style="">
+                    <div class="jFiler-item-container">
+                      <div class="jFiler-item-inner">
+                        <div class="jFiler-item-icon pull-left">
+                          <i class="icon-jfi-file-o jfi-file-type-image jfi-file-ext-png"></i>
+                        </div>
+                        <div class="jFiler-item-info pull-left">
+                          <div class="jFiler-item-title" title="그룹웨어이메일전송오류.png">그룹웨어이메일전송오류2.png</div>
+                          <div class="jFiler-item-others">
+                            <span>size: 209 KB</span>
+                            <span>type: png</span>
+                            <span class="jFiler-item-status">
+                              <div class="jFiler-jProgressBar" style="display: none;">
+                                <div class="bar" style="width: 100%;"></div>
+                              </div>
+                              <div class="jFiler-item-others text-success" style=""><i class="icon-jfi-check-circle"></i> Success</div>
+                            </span>
+                          </div>
+                          <div class="jFiler-item-assets">
+                            <ul class="list-inline">
+                              <li><a class="icon-jfi-trash jFiler-item-trash-action"></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="jFiler-item" data-jfiler-index="2" style="">
+                    <div class="jFiler-item-container">
+                      <div class="jFiler-item-inner">
+                        <div class="jFiler-item-icon pull-left">
+                          <i class="icon-jfi-file-o jfi-file-type-image jfi-file-ext-png"></i>
+                        </div>
+                        <div class="jFiler-item-info pull-left">
+                          <div class="jFiler-item-title" title="그룹웨어이메일전송오류.png">그룹웨어이메일전송오류3.png</div>
+                          <div class="jFiler-item-others">
+                            <span>size: 209 KB</span>
+                            <span>type: png</span>
+                            <span class="jFiler-item-status">
+                              <div class="jFiler-jProgressBar" style="display: none;">
+                                <div class="bar" style="width: 100%;"></div>
+                              </div>
+                              <div class="jFiler-item-others text-success" style=""><i class="icon-jfi-check-circle"></i> Success</div>
+                            </span>
+                          </div>
+                          <div class="jFiler-item-assets">
+                            <ul class="list-inline">
+                              <li><a class="icon-jfi-trash jFiler-item-trash-action"></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="jFiler-item" data-jfiler-index="2" style="">
+                    <div class="jFiler-item-container">
+                      <div class="jFiler-item-inner">
+                        <div class="jFiler-item-icon pull-left">
+                          <i class="icon-jfi-file-o jfi-file-type-image jfi-file-ext-png"></i>
+                        </div>
+                        <div class="jFiler-item-info pull-left">
+                          <div class="jFiler-item-title" title="그룹웨어이메일전송오류.png">그룹웨어이메일전송오류.png</div>
+                          <div class="jFiler-item-others">
+                            <span>size: 209 KB</span>
+                            <span>type: png</span>
+                            <span class="jFiler-item-status">
+                              <div class="jFiler-jProgressBar" style="display: none;">
+                                <div class="bar" style="width: 100%;"></div>
+                              </div>
+                              <div class="jFiler-item-others text-success" style=""><i class="icon-jfi-check-circle"></i> Success</div>
+                            </span>
+                          </div>
+                          <div class="jFiler-item-assets">
+                            <ul class="list-inline">
+                              <li><a class="icon-jfi-trash jFiler-item-trash-action"></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary mx-1 d-inline-block btn btn-dark modal-confirm-btn">완료</button>
+        <a href="#close-modal" rel="modal:close" class="close-modal mx-1">
+        <button type="button" class="btn btn-dark">취소</button></a>
+      </div>
+      <!-- .card -->
+      <section class="modal-body">
+        <div class="">
+          <div class="has-scrollable border-0">
+            <div class="col-12">
+              <label class="col-1" for="">제목</label>
+              <input class="col-11 mb-1" type="text" name="" value="">
+              <label class="col-1" for="">제목</label>
+              <input class="col-11 mb-1" type="text" name="" value="">
+              <label class="col-1" for="">제목</label>
+              <input class="col-11 mb-1" type="text" name="" value="">
+              <label class="col-1" for="">일자</label>
+              <input class="col-2 mb-1" type="text" name="" value="">
+              <label class="col-1 text-center" for="">시간</label>
+              <input class="col-2 mb-1" type="text" name="" value="">
+              <label class="col-1 text-center" for="">장소</label>
+              <input class="col-2 mb-1" type="text" name="" value="">
+              <label class="col-2 text-center" for="">결재작성 여부</label>
+              <div class="">
+                <input type="checkbox" class="custom-control-input col-1">
+                <label class="custom-control-label" name="all"  onclick="check();"></label>
+              </div>
+              <div class="col-12">
+                <label class="col-1" for="">내용</label>
+                <div class="col-11 p-0">
+                  <textarea name="editor1" id="editor1" rows="10" cols="80" style="display: none;"></textarea>
+                </div>
+              </div>
+              <div class="col-12">
+                <label class="col-1" for="">결정사항</label>
+                <textarea class="col-11 border border-radius" name="name" rows="8" cols="80"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.card-body -->
+      </section>
+      <!-- /.card -->
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- 회의록 작성 -->
+
+<!-- 회의록 view -->
+<div class="modal fade" id="meeting_view_Modal">
+  <!-- .modal-dialog -->
+  <div class="modal-dialog modal-dialog-overflow" role="document">
+    <!-- .modal-content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="d-inline-block">회의록</h5>
+        <a href="#" class="filer_btn">
+          <i class="ml-1 icon-file"></i>파일첨부
+        </a>
+        <button type="button" class="btn btn-primary mx-1 d-inline-block btn btn-dark modal-confirm-btn">완료</button>
+        <a href="#close-modal" rel="modal:close" class="close-modal mx-1">
+        <button type="button" class="btn btn-dark">취소</button></a>
+      </div>
+      <!-- .card -->
+      <section class="modal-body">
+        <div class="">
+          <div class="has-scrollable border-0">
+            <div class="col-12">
+              <label class="col-1" for="">제목</label>
+              <p class="col-11 mb-1">경영혁신팀 ISO 외부감사 회의록</p>
+              <label class="col-1" for="">목적</label>
+              <p class="col-11 mb-1">권고사항과 리스트 관리 방안 정보 전달</p>
+              <label class="col-1" for="">참석자</label>
+              <span class="col-11 mb-1">asdasd</span>
+              <label class="col-1" for="">일자</label>
+              <p class="col-2">2018-06-28</p>
+              <label class="col-1 text-center" for="">시간</label>
+              <p class="col-2">13:10</p>
+              <label class="col-1 text-center" for="">장소</label>
+              <p class="col-2">8층 회의실</p>
+              <label class="col-2 text-center" for="">결재작성 여부</label>
+              <div class="">
+                <input type="checkbox" class="custom-control-input col-1">
+                <label class="custom-control-label" name="all"  onclick="check();"></label>
+              </div>
+              <div class="col-12">
+                <label class="col-1" for="">내용</label>
+                <div class="col-11 border border-radius" style="height:300px;">
+                  <p>
+                    1. 권고 사항<br>
+                    A. 전산자산관리 절차서 수정 권고<br>
+                    B. 리스크 관리 내용 수정 권고<br><br>
+
+                    2. 언급 사항<br>
+                    A. 전산자산 관리<br>
+                    B. 리스크 관리<br>
+                    C. 개인업무분장표<br><br>
+
+                    3. 질문 사항과 답변 내용<br>
+                    A. 전산자산관리 .<br>
+                    B. 업무 프로세스<br>
+                    C. 문서 관리<br>
+                    D. 필요 교육 및 이력 관리
+                  </p>
+                </div>
+              </div>
+              <div class="col-12">
+                <label class="col-1" for="">결정사항</label>
+                <textarea class="col-11 border-radius" name="name" rows="8" cols="80"></textarea>
+              </div>
+              <div class="col-12">
+                <label class="col-1" for=""></label>
+                <ul class="file-list col-11 border border-radius">
+                  <li>파일명.jpg</li>
+                  <li>파일명.jpg</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.card-body -->
+      </section>
+      <!-- /.card -->
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- 회의록 view -->
+
+<!-- 연결일감 -->
+<div class="modal fade" id="connect_Modal">
+  <!-- .modal-dialog -->
+  <div class="modal-dialog modal-dialog-overflow" role="document">
+    <!-- .modal-content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="d-inline-block">연결일감</h5>
+        <a href="#close-modal" rel="modal:close" class="close-modal mx-1">
+        <button type="button" class="btn btn-dark">취소</button></a>
+      </div>
+      <!-- .card -->
+      <section class="modal-body">
+        <div class="">
+          <div class="has-scrollable border-0">
+            <div class="col-12 table_list">
+              <table class="w-100">
+                <tbody>
+                  <tr>
+                    <td>#12434</td>
+                    <td>[식품안전연구센터_이천]내부 분석업무 진행</td>
+                    <td><p class="process_wrap">진행</p></td>
+                    <td><p class="name-wrap">정권성</p></td>
+                  </tr>
+                  <tr>
+                    <td>#12434</td>
+                    <td>[식품안전연구센터_이천]내부 분석업무 진행</td>
+                    <td><p class="process_wrap">진행</p></td>
+                    <td><p class="name-wrap">정권성</p></td>
+                  </tr>
+                  <tr>
+                    <td>#12434</td>
+                    <td>[식품안전연구센터_이천]내부 분석업무 진행</td>
+                    <td><p class="process_wrap">진행</p></td>
+                    <td><p class="name-wrap">정권성</p></td>
+                  </tr>
+                  <tr>
+                    <td>#12434</td>
+                    <td>[식품안전연구센터_이천]내부 분석업무 진행</td>
+                    <td><p class="process_wrap">진행</p></td>
+                    <td><p class="name-wrap">정권성</p></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- /.card-body -->
+      </section>
+      <!-- /.card -->
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- 연결일감 -->
+
+<!-- vendor -->
+<script type="text/javascript">
+var app = {
+  contextPath : 	'/',
+  loginInfo : {},
+  langCd : 'ko'
+};
+</script>
+<script src="assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="assets/vendor/jquerymodal/jquery.modal.js"></script>
+<script src="assets/vendor/popper.min.js"></script>
+<script src="assets/vendor/ckeditor/ckeditor.js"></script>
+<script src="assets/vendor/jquery.filer/js/jquery.filer.min.js"></script>
+<script src="assets/vendor/ckeditor/config.js"></script>
+<script src="assets/vendor/ckeditor/styles.js"></script>
+<script src="assets/vendor/ckeditor/adapters/jquery.js"></script>
+<script src="assets/vendor/editor.js"></script>
+<!-- //vendor -->
+<script src="./common/js/plugin.js"></script>
+<script src="./common/js/common.js"></script>
+
+<script>
+$(function() {
+  Editor.init();
+});
+</script>
+
+</body>
+</html>

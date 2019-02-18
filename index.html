@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>샘표</title>
+<meta name="description" content="">
+<meta name="keywords"    content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<link rel="canonical" href="">
+<!-- vendor -->
+<link rel="stylesheet" href="assets/vendor/fontawesome/css/fontawesome.all.css">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/vendor/custom_font/style.css">
+<link rel="stylesheet" type="text/css" href="assets/vendor/perfect-scrollbar/perfect-scrollbar.css">
+<link rel="stylesheet" type="text/css" href="assets/vendor/jquerymodal/jquery.modal.css">
+<link rel="stylesheet" href="assets/vendor/jstree/themes/default/style.min.css">
+<!-- //vendor -->
+<link rel="stylesheet" type="text/css" href="./common/css/common.css">
+<link rel="stylesheet" type="text/css" href="./common/css/style.css">
+<script src="./common/js/jquery.js"></script>
+</head>
+<body>
+
+<div id="gnb" class="has-scrollable-menu">
+  <article class="gnb_wrap">
+    <div class="myspace_area">
+      <p class="txt">MY Space</p>
+      <i class="menu-icon far fa-bell">
+        <a href="#notification_Modal" rel="modal:open"><button type="button" name="button" class="" onclick="return false">3</button></a>
+      </i>
+      <button class="space_layer_button" type="button" name="button">
+        <i class="fas fa-caret-right"></i>
+      </button>
+    </div>
+    <div class="menu">
+      <ul class="menu_wrap">
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-dashboard"></i>
+            </span>
+            <p class="menu_txt">대쉬보드</p>
+          </a>
+        </li>
+        <li class="has-child">
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-task"></i>
+            </span>
+            <p class="menu_txt">Tasks</p>
+          </a>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#" class="menu-link">- Task 등록</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 내 Task</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 요청 Task</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 공유 Task</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 전체 Task</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-mail"></i>
+            </span>
+            <p class="menu_txt">연결 메일</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-approval"></i>
+            </span>
+            <p class="menu_txt">연결 결재</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-minutes"></i>
+            </span>
+            <p class="menu_txt">회의록</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-attachment"></i>
+            </span>
+            <p class="menu_txt">첨부파일함</p>
+          </a>
+        </li>
+        <li class="has-child">
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-space"></i>
+            </span>
+            <p class="menu_txt">스페이스</p>
+          </a>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 가입 스페이스</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 내 스페이스</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">- 종료된 스페이스</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-activitystatus"></i>
+            </span>
+            <p class="menu_txt">개인별 활동 현황</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-log"></i>
+            </span>
+            <p class="menu_txt">활동 로그</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="menu_icon">
+              <i class="icon-setting"></i>
+            </span>
+            <p class="menu_txt">스페이스 설정</p>
+          </a>
+        </li>
+      </ul>
+      <ul class="util_wrap clearfix">
+        <li>
+          <i class="icon-message"></i>
+          <p>쪽지</p>
+        </li>
+        <li>
+          <i class="icon-document-box"></i>
+          <p>문서함</p>
+        </li>
+        <li>
+          <i class="icon-board"></i>
+          <p>게시판</p>
+        </li>
+        <li>
+          <i class="icon-organization"></i>
+          <p>조직도</p>
+        </li>
+        <li>
+          <i class="icon-calendar"></i>
+          <p>일정관리</p>
+        </li>
+        <li>
+          <i class="icon-reservation"></i>
+          <p>자원예약</p>
+        </li>
+        <li>
+          <i class="icon-filebox"></i>
+          <p>파일함</p>
+        </li>
+        <li>
+          <i class="icon-survey"></i>
+          <p>설문조사</p>
+        </li>
+        <li>
+          <i class="icon-address"></i>
+          <p>주소록</p>
+        </li>
+      </ul>
+    </div>
+  </article>
+ </div>
+ <div class="space_layer">
+   <div class="space-layer-header">
+     <h6>스페이스 선택</h6>
+       <button type="button" class="btn space_close">X</button>
+   </div>
+   <div class="space_content">
+     <div class="search_wrap">
+       <div class="search_area">
+         <input type="text" name="" value="">
+       </div>
+       <div class="accordion-container">
+         <div class="w-90 mx-auto accordion-content open">
+           <ul>
+             <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+              </div>
+             </li>
+             <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+               <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+              </div>
+             </li>
+             <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+              </div>
+             </li>
+           </ul>
+         </div>
+         <div class="w-100 text-center article-title">
+           <i class="fas fa-sort-up"></i>
+         </div>
+       </div>
+     </div>
+     <div class="w-100 p-relative" style="">
+       <div id="jstree9" class="p-relative treeview has-scrollable position-relative border-0 w-100 p-2" style="height:268px;"></div>
+     </div>
+   </div>
+ </div>
+
+<div id="wrap">
+  <div class="content clearfix">
+    <!-- notice_area -->
+    <div class="notice_area clearfix">
+      <div class="col-2">
+        <div class="w-100 border border-radius">
+          <p class="tit">갱신 Task</p>
+          <p class="num">6<span class="num_txt">건</span></p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="w-100 border border-radius">
+          <p class="tit">신규댓글 Task</p>
+          <p class="num">6<span class="num_txt">건</span></p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="w-100 border border-radius">
+          <p class="tit">신규피드백 Task</p>
+          <p class="num">6<span class="num_txt">건</span></p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="w-100 border border-radius new_flag p-relative">
+          <p class="tit">신규 Task</p>
+          <p class="num">6<span class="num_txt">건</span></p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="w-100 border border-radius">
+          <p class="tit">지난 Task</p>
+          <p class="num">6<span class="num_txt">건</span></p>
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="col-12 h-50">
+          <div class="w-100 border border-radius clearfix">
+            <i class="fas fa-envelope"></i>
+            <p>8</p>
+          </div>
+        </div>
+        <div class="col-12 h-50">
+          <div class="w-100 border border-radius clearfix">
+            <i class="fas fa-clipboard"></i>
+            <p>8</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="col-12 h-50">
+          <div class="w-100 border border-radius">
+            <i class="fas fa-file-medical-alt"></i>
+            <p>8</p>
+          </div>
+        </div>
+        <div class="col-12 h-50">
+          <div class="w-100 border border-radius">
+            <i class="fas fa-paste"></i>
+            <p>8</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //notice_area -->
+    <!-- contents_area -->
+    <div class="content-h col-8">
+      <div class="w-100 h-100 border border-radius">
+        <div class="con-header">
+          <p>Task 변경 내역</p>
+          <a href="#space_select_Modal" rel="modal:open"><span class="fas fa-cog mr-1 right-btn" ></span></a>
+        </div>
+        <div class="timeline has-scrollable p-relative con-content-area">
+          <div class="timeline-item">
+            <p class="date">2018. 08. 28</p>
+            <div class="tit">
+              <div class="tile tile-circle">
+                <i class="fas fa-bars fa-lg"></i>
+              </div>
+              <p class="tile-txt">시스템Infra <span>#29872 연구기획팀/연구개발5팀 ssd 변경</span></p>
+            </div>
+            <div class="timeline-con border-radius bg-gy">
+              <div class="timeline-con-wrap">
+                <p class="timeline-con-txt">설명(을)를 변경(diff)</p>
+                <p class="timeline-con-txt">시작일(을)를 2018. 05. 20에서 2018. 05. 26으로 변경</p>
+                <div class="timeline-con-info">
+                  <p class="timeline-name-wrap">정권성</p>
+                  <p class="timeline-time">2018. 08. 28. 15:30 변경</p>
+                </div>
+              </div>
+              <div class="timeline-con-wrap">
+                <p class="timeline-con-txt">설명(을)를 변경(diff)</p>
+                <p class="timeline-con-txt">시작일(을)를 2018. 05. 20에서 2018. 05. 26으로 변경</p>
+                <div class="timeline-con-info">
+                  <p class="timeline-name-wrap">정권성</p>
+                  <p class="timeline-time">2018. 08. 28. 15:30 변경</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <p class="date">2018. 08. 28</p>
+            <div class="tit">
+              <div class="tile tile-circle">
+                <i class="fas fa-bars fa-lg"></i>
+              </div>
+              <p class="tile-txt">시스템Infra <span>#29872 연구기획팀/연구개발5팀 ssd 변경</span></p>
+            </div>
+            <div class="timeline-con border-radius bg-gy">
+              <div class="timeline-con-wrap">
+                <p class="timeline-con-txt">설명(을)를 변경(diff)</p>
+                <p class="timeline-con-txt">시작일(을)를 2018. 05. 20에서 2018. 05. 26으로 변경</p>
+                <div class="timeline-con-info">
+                  <p class="timeline-name-wrap">정권성</p>
+                  <p class="timeline-time">2018. 08. 28. 15:30 변경</p>
+                </div>
+              </div>
+              <div class="timeline-con-wrap">
+                <p class="timeline-con-txt">설명(을)를 변경(diff)</p>
+                <p class="timeline-con-txt">시작일(을)를 2018. 05. 20에서 2018. 05. 26으로 변경</p>
+                <div class="timeline-con-info">
+                  <p class="timeline-name-wrap">정권성</p>
+                  <p class="timeline-time">2018. 08. 28. 15:30 변경</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-h col-4">
+      <div class="w-100 h-100 border border-radius">
+        <div class="con-header">
+          <a href="#manager_add_Modal" rel="modal:open"><p>관심 스페이스</p></a>
+        </div>
+        <div class="space_list has-scrollable p-relative con-content-area">
+          <ul>
+            <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                <p class="txt">경영혁신팀/사업/2018/SWS</p>
+              </div>
+              <p class="name-wrap">정권성</p>
+            </li>
+            <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                <p class="txt">경영혁신팀/사업/2018/SWS</p>
+              </div>
+              <p class="name-wrap">정권성</p>
+            </li>
+            <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                <p class="txt">경영혁신팀/사업/2018/SWS</p>
+              </div>
+              <p class="name-wrap">정권성</p>
+            </li>
+            <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                <p class="txt">경영혁신팀/사업/2018/SWS</p>
+              </div>
+              <p class="name-wrap">정권성</p>
+            </li>
+            <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                <p class="txt">경영혁신팀/사업/2018/SWS</p>
+              </div>
+              <p class="name-wrap">정권성</p>
+            </li>
+            <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                <p class="txt">경영혁신팀/사업/2018/SWS</p>
+              </div>
+              <p class="name-wrap">정권성</p>
+            </li>
+            <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                <p class="txt">경영혁신팀/사업/2018/SWS</p>
+              </div>
+              <p class="name-wrap">정권성</p>
+            </li>
+            <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                <p class="txt">경영혁신팀/사업/2018/SWS</p>
+              </div>
+              <p class="name-wrap">정권성</p>
+            </li>
+            <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                <p class="txt">경영혁신팀/사업/2018/SWS</p>
+              </div>
+              <p class="name-wrap">정권성</p>
+            </li>
+            <li>
+              <span class="work_icon bg-p">p</span>
+              <div class="txt_area">
+                <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                <p class="txt">경영혁신팀/사업/2018/SWS</p>
+              </div>
+              <p class="name-wrap">정권성</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- //contents_area -->
+    <!-- contents_area -->
+    <div class="content-h col-12">
+      <div class="w-100 h-100 border border-radius">
+        <div class="con-header">
+          <p>전체 일감</p>
+        </div>
+        <div class="table_list has-scrollable p-relative con-content-area">
+          <table class="w-100">
+            <colgroup>
+              <col style="width:60%;">
+              <col style="width:10%;">
+              <col style="width:10%;">
+              <col style="width:10%;">
+            </colgroup>
+            <thead>
+              <tr>
+                <th>제목</th>
+                <th>담당자</th>
+                <th>완료 예정일</th>
+                <th>변경 일자</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <span class="progress_icon bg-r">0</span>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="progress_icon bg-r">0</span>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="progress_icon bg-r">0</span>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="progress_icon bg-r">0</span>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="progress_icon bg-r">0</span>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="progress_icon bg-r">0</span>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="progress_icon bg-r">0</span>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="progress_icon bg-r">0</span>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="progress_icon bg-r">0</span>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="progress_icon bg-r">0</span>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+                <td>2018. 5. 29</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- //contents_area -->
+    <!-- contents_area -->
+    <div class="content-h col-6">
+      <div class="w-100 h-100 border border-radius">
+        <div class="con-header">
+          <p>최근 Task</p>
+        </div>
+        <div class="table_list has-scrollable p-relative con-content-area">
+          <table class="w-100">
+            <colgroup>
+              <col style="width:60%;">
+              <col style="width:15%;">
+              <col style="width:15%;">
+            </colgroup>
+            <thead>
+              <tr>
+                <th>제목</th>
+                <th>담당자</th>
+                <th>완료 예정일</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="content-h col-6">
+      <div class="w-100 h-100 border border-radius">
+        <div class="con-header">
+          <p>진행 예정 Task</p>
+        </div>
+        <div class="table_list has-scrollable p-relative con-content-area">
+          <table class="w-100">
+            <colgroup>
+              <col style="width:60%;">
+              <col style="width:15%;">
+              <col style="width:15%;">
+            </colgroup>
+            <thead>
+              <tr>
+                <th>제목</th>
+                <th>담당자</th>
+                <th>완료 예정일</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="progress_tit">연구기획팀 / 연구개발5팀 SSD 변경 및 메모리 변경 요청 건</p>
+                </td>
+                <td>
+                  <span class="avatar_area">
+                    <img src="images/face.jpg" alt="">
+                  </span>
+                </td>
+                <td>2018. 5. 29</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- //contents_area -->
+  </div>
+</div>
+
+<!-- 알림 -->
+<div class="modal fade notification_Modal" id="notification_Modal">
+  <!-- .modal-dialog -->
+  <div class="modal-dialog modal-dialog-overflow" role="document">
+    <!-- .modal-content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="d-inline-block">알림</h5>
+        <button type="button" class="btn btn-primary mx-1 d-inline-block btn btn-dark modal-confirm-btn">확인</button>
+        <a href="#close-modal" rel="modal:close" class="close-modal mx-1">
+        <button type="button" class="btn btn-dark">취소</button></a>
+      </div>
+      <!-- .card -->
+        <div class="has-scrollable p-relative">
+          <a class="w-100 clearfix py-1 d-inline-block" href="#">
+            <div class="col-1">
+              <div class="border notification_icon">
+                <i class="far fa-bell"></i>
+              </div>
+            </div>
+            <div class="col-2">
+              <p>#20189</p>
+            </div>
+            <div class="col-5">
+              <p>일감에 권슬기님이 댓글을 등록(변경)하였습니다.</p>
+            </div>
+            <div class="col-3">
+              <p>2018.05.31</p>
+            </div>
+            <div class="col-1">
+              <span>X</span>
+            </div>
+          </a>
+          <a class="w-100 clearfix py-1 d-inline-block" href="#">
+            <div class="col-1">
+              <div class="border notification_icon">
+                <i class="far fa-bell"></i>
+              </div>
+            </div>
+            <div class="col-2">
+              <p>#20189</p>
+            </div>
+            <div class="col-5">
+              <p>일감에 권슬기님이 댓글을 등록(변경)하였습니다.</p>
+            </div>
+            <div class="col-3">
+              <p>2018.05.31</p>
+            </div>
+            <div class="col-1">
+              <p>X</p>
+            </div>
+          </a>
+        </div>
+      <!-- /.card -->
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- 알림 -->
+
+<!-- 스페이스 선택 -->
+<div class="modal fade space_select_Modal" id="space_select_Modal">
+  <!-- .modal-dialog -->
+  <div class="modal-dialog modal-dialog-overflow" role="document">
+    <!-- .modal-content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="d-inline-block">스페이스 선택</h5>
+        <button type="button" class="btn btn-primary mx-1 d-inline-block btn btn-dark modal-confirm-btn">확인</button>
+        <a href="#close-modal" rel="modal:close" class="close-modal mx-1">
+        <button type="button" class="btn btn-dark">취소</button></a>
+      </div>
+      <!-- .card -->
+      <section class="modal-body">
+        <div class="">
+          <div class="has-scrollable border-0">
+            <div class="col-4">
+              <div class="search_wrap">
+                <div class="search_area">
+                  <input type="text" name="" value="">
+                </div>
+                <div class="accordion-container">
+                  <div class="w-100 mx-auto accordion-content open">
+                    <ul>
+                      <li>
+                       <span class="work_icon bg-p">p</span>
+                       <div class="txt_area">
+                         <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                       </div>
+                      </li>
+                      <li>
+                       <span class="work_icon bg-p">p</span>
+                       <div class="txt_area">
+                        <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                       </div>
+                      </li>
+                      <li>
+                       <span class="work_icon bg-p">p</span>
+                       <div class="txt_area">
+                         <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                       </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="w-100 text-center article-title">
+                    <i class="fas fa-sort-up"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <div id="jstree4" class="p-relative treeview has-scrollable border-0 w-100 p-2 border-bottom space_tree"></div>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="space_check_area w-100">
+                <form name="input_form" class="positin-relative" action="index.html" method="post">
+                <div class="all_check_area">
+                  <ul>
+                    <li class="">
+                      <div class="clearfix">
+                        <input type="checkbox" class="custom-control-input" id="allCheck">
+                        <label class="custom-control-label all_check_lineheight" name="all" for="allCheck" onclick="check();">전체선택</label>
+                        <button type="button" class="btn border float-right"><i class="icon-trash"></i></button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="check_list has-scrollable w-100 mx-auto">
+                  <ul class="">
+                    <li class="">
+                      <div class="">
+                        <input type="checkbox" class="custom-control-input" id="ckb2">
+                        <label class="custom-control-label" name="chk" for="ckb2">기업포털구축</label>
+                      </div>
+                    </li>
+                    <li class="">
+                      <div class="">
+                        <input type="checkbox" class="custom-control-input" id="ckb2">
+                        <label class="custom-control-label" name="chk" for="ckb2">기업포털구축</label>
+                      </div>
+                    </li>
+                    <li class="">
+                      <div class="">
+                        <input type="checkbox" class="custom-control-input" id="ckb2">
+                        <label class="custom-control-label" name="chk" for="ckb2">기업포털구축</label>
+                      </div>
+                    </li>
+                    <li class="">
+                      <div class="">
+                        <input type="checkbox" class="custom-control-input" id="ckb2">
+                        <label class="custom-control-label" name="chk" for="ckb2">기업포털구축</label>
+                      </div>
+                    </li>
+                    <li class="">
+                      <div class="">
+                        <input type="checkbox" class="custom-control-input" id="ckb2">
+                        <label class="custom-control-label" name="chk" for="ckb2">기업포털구축</label>
+                      </div>
+                    </li>
+                    <li class="">
+                      <div class="">
+                        <input type="checkbox" class="custom-control-input" id="ckb2">
+                        <label class="custom-control-label" name="chk" for="ckb2">기업포털구축</label>
+                      </div>
+                    </li>
+                    <li class="">
+                      <div class="">
+                        <input type="checkbox" class="custom-control-input" id="ckb2">
+                        <label class="custom-control-label" name="chk" for="ckb2">기업포털구축</label>
+                      </div>
+                    </li>
+
+                  </ul>
+                </div>
+                <div class="w-100 text-right mt-1">
+                </div>
+                </form>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.card-body -->
+      </section>
+      <!-- /.card -->
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- 스페이스 선택 -->
+<!-- 사용자 선택 -->
+<div class="modal fade manager_add_Modal" id="manager_add_Modal">
+  <!-- .modal-dialog -->
+  <div class="modal-dialog modal-dialog-overflow" role="document">
+    <!-- .modal-content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="d-inline-block">사용자 선택</h5>
+        <button type="button" class="btn btn-primary mx-1 d-inline-block btn btn-dark modal-confirm-btn">확인</button>
+        <a href="#close-modal" rel="modal:close" class="close-modal mx-1">
+        <button type="button" class="btn btn-dark">취소</button></a>
+      </div>
+      <!-- .card -->
+      <section class="modal-body">
+        <div class="">
+          <div class="has-scrollable border-0">
+            <div class="col-9">
+              <div class="col-4 border border-radius p-1 b-t-r-r-0 b-b-r-r-0 border-right-0 manager_tree_wrap">
+                <div class="search_wrap">
+                  <div class="search_area">
+                    <input type="text" name="" value="" placeholder="부서명">
+                  </div>
+                  <div class="accordion-container">
+                    <div class="w-100 mx-auto accordion-content open">
+                      <ul>
+                        <li>
+                         <span class="work_icon bg-p">p</span>
+                         <div class="txt_area">
+                           <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                         </div>
+                        </li>
+                        <li>
+                         <span class="work_icon bg-p">p</span>
+                         <div class="txt_area">
+                          <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                         </div>
+                        </li>
+                        <li>
+                         <span class="work_icon bg-p">p</span>
+                         <div class="txt_area">
+                           <p class="tit">2018년 SWS 홍보본부/우리맛...</p>
+                         </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="w-100 text-center article-title">
+                      <i class="fas fa-sort-up"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="border border-radius bg-wh">
+                  <div id="jstree3" class="p-relative treeview has-scrollable border-0 w-100 p-1 space_tree"></div>
+                </div>
+              </div>
+              <div class="col-8 border border-radius p-1 b-t-l-r-0 b-b-l-r-0 bg-gy manager_add_wrap">
+                <div class="manager_check_area w-100">
+                  <form name="input_form" class="positin-relative" action="index.html" method="post">
+                  <div class="">
+                    <div class="search_area">
+                      <input type="text" name="" value="" placeholder="이름 / 소속">
+                    </div>
+                    <div class="btn_wrap">
+                      <button class="btn border border-radius b-t-r-r-0 b-b-r-r-0 curr" type="button" name="button"><i class="fas fa-list-ul"></i></button>
+                      <button class="btn border border-radius b-t-l-r-0 b-b-l-r-0" type="button" name="button"><i class="fas fa-th"></i></button>
+                    </div>
+                  </div>
+                  <div class="border border-radius bg-wh h-347">
+                    <div class="manager-header-wrap clearfix">
+                      <div class="col-1">
+                        <input type="checkbox" class="manager-control-input" id="ckb2"><label class="manager-control-label" name="chk" for="ckb2"></label>
+                      </div>
+                      <div class="col-7">
+                        이름
+                      </div>
+                      <div class="col-4">
+                        직위 / 소속
+                      </div>
+                    </div>
+                    <ul class="manager_thumb_wrap clearfix">
+                      <li>
+                        <input type="checkbox" class="manager-control-input" id="ckb2"><label class="manager-control-label" name="chk" for="ckb2"></label>
+                        <span class="avatar_area">
+                          <img src="images/face.jpg" alt="">
+                        </span>
+                        <i class="fas fa-info-circle float-right"></i>
+                        <p class="d-block text-bold mt-05">박영배 총괄</p>
+                        <p class="m-0">샘표 ISP</p>
+                      </li>
+                      <li>
+                        <input type="checkbox" class="manager-control-input" id="ckb2"><label class="manager-control-label" name="chk" for="ckb2"></label>
+                        <span class="avatar_area">
+                          <img src="images/face.jpg" alt="">
+                        </span>
+                        <i class="fas fa-info-circle float-right"></i>
+                        <p class="d-block text-bold mt-05">박영배 총괄</p>
+                        <p class="m-0">샘표 ISP</p>
+                      </li>
+                      <li>
+                        <input type="checkbox" class="manager-control-input" id="ckb2"><label class="manager-control-label" name="chk" for="ckb2"></label>
+                        <span class="avatar_area">
+                          <img src="images/face.jpg" alt="">
+                        </span>
+                        <i class="fas fa-info-circle float-right"></i>
+                        <p class="d-block text-bold mt-05">박영배 총괄</p>
+                        <p class="m-0">샘표 ISP</p>
+                      </li>
+                      <li>
+                        <input type="checkbox" class="manager-control-input" id="ckb2"><label class="manager-control-label" name="chk" for="ckb2"></label>
+                        <span class="avatar_area">
+                          <img src="images/face.jpg" alt="">
+                        </span>
+                        <i class="fas fa-info-circle float-right"></i>
+                        <p class="d-block text-bold mt-05">박영배 총괄</p>
+                        <p class="m-0">샘표 ISP</p>
+                      </li>
+                      <li>
+                        <input type="checkbox" class="manager-control-input" id="ckb2"><label class="manager-control-label" name="chk" for="ckb2"></label>
+                        <span class="avatar_area">
+                          <img src="images/face.jpg" alt="">
+                        </span>
+                        <i class="fas fa-info-circle float-right"></i>
+                        <p class="d-block text-bold mt-05">박영배 총괄</p>
+                        <p class="m-0">샘표 ISP</p>
+                      </li>
+                    </ul>
+                    <!-- <ul class="manager_list_wrap clearfix">
+                      <li class="clearfix">
+                        <div class="col-1">
+                          <input type="checkbox" class="manager-control-input" id="ckb2"><label class="manager-control-label" name="chk" for="ckb2"></label>
+                        </div>
+                        <div class="col-7">
+                          <p>박영배</p>
+                        </div>
+                        <div class="col-4">
+                          <p>총괄/샘표ISP</p>
+                        </div>
+                      </li>
+                      <li class="clearfix">
+                        <div class="col-1">
+                          <input type="checkbox" class="manager-control-input" id="ckb2"><label class="manager-control-label" name="chk" for="ckb2"></label>
+                        </div>
+                        <div class="col-7">
+                          <p>박영배</p>
+                        </div>
+                        <div class="col-4">
+                          <p>총괄/샘표ISP</p>
+                        </div>
+                      </li>
+                    </ul> -->
+                  </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="col-12 border border-radius p-1 bg-gy">
+                <h6>담당자 목록</h6>
+                <div class="manager_check_list has-scrollable w-100 mx-auto py-1">
+                  <table>
+                    <colgroup>
+                      <col style="width:8%;">
+                      <col style="width:52%;">
+                      <col style="width:40%;">
+                    </colgroup>
+                    <thead>
+                      <tr>
+                        <th><input type="checkbox" class="manager-control-input" id="ckb2"><label class="manager-control-label" name="chk" for="ckb2"></label></th>
+                        <th>이름</th>
+                        <th>직위/소속</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><input type="checkbox" class="manager-control-input" id="ckb2"><label class="manager-control-label" name="chk" for="ckb2"></label></td>
+                        <td>박영배</td>
+                        <td>총괄/샘표ISP</td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" class="manager-control-input" id="ckb2"><label class="manager-control-label" name="chk" for="ckb2"></label></td>
+                        <td>박영배</td>
+                        <td>총괄/샘표ISP</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.card-body -->
+      </section>
+      <!-- /.card -->
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- 사용자 선택 -->
+
+<!-- vendor -->
+<script src="assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="assets/vendor/jquerymodal/jquery.modal.js"></script>
+<script src="assets/vendor/jstree/jstree.min.js"></script>
+<script src="assets/vendor/bootstrapTreeView/bootstrap-treeview.min.js"></script>
+<script src="assets/vendor/autocomplete.json"></script>
+<script src="assets/vendor/tree.json"></script>
+<!-- <script src="assets/vendor/wksUtil.js"></script> -->
+<script src="assets/vendor/autocomplete.js"></script>
+<script src="assets/vendor/tree.js"></script>
+<script src="assets/javascript/pages/jstree-demo.js"></script>
+<!-- //vendor -->
+<script src="./common/js/plugin.js"></script>
+<script src="./common/js/common.js"></script>
+
+
+</body>
+</html>
