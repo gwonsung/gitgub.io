@@ -1,0 +1,92 @@
+[{
+  "id": 1,
+  "text": "마이스페이스",
+  "icon": "fa fa-cloud text-warning",
+  "state": {"opened": true},
+  "children": [{
+    "id": 2,
+    "text": "[R]기업포털 구축",
+    "icon": "far fa-folder",
+    "children": [{
+      "id": 3,
+      "text": "그룹웨어 운영",
+      "icon": "fa fa-male"
+    }, {
+      "id": 4,
+      "text": "스페이스 구축",
+      "icon": "fa fa-female"
+    }, {
+      "id": 5,
+      "text": "스페이스 기획",
+      "icon": "fa fa-hashtag"
+    }]
+  }, {
+    "id": 6,
+    "text": "[R]시스템 infra",
+    "icon": "far fa-folder",
+    "state": {"opened": true},
+    "children": [{
+      "id": 7,
+      "text": "Network관리",
+      "icon": "fas fa-cube"
+    },{
+      "id": 7,
+      "text": "Network관리",
+      "icon": "fas fa-cube"
+    },{
+      "id": 8,
+      "text": "데이터베이스운영",
+      "icon": "fas fa-cube"
+    },{
+      "id": 9,
+      "text": "서버운영",
+      "icon": "fas fa-cube"
+    },{
+      "id": 10,
+      "text": "전산자산관리",
+      "icon": "fas fa-cube"
+    },{
+      "id": 11,
+      "text": "정보보안",
+      "icon": "fas fa-cube"
+    },{
+      "id": 12,
+      "text": "정보화기획",
+      "icon": "fas fa-cube"
+      }]
+  },{
+    "id": 13,
+    "text": "[R]시스템 infra",
+    "icon": "far fa-folder",
+    "state": {"opened": true},
+    "children": [{
+      "id": 14,
+      "text": "Network관리",
+      "icon": "fas fa-cube"
+    },{
+      "id": 15,
+      "text": "Network관리",
+      "icon": "fas fa-cube"
+    },{
+      "id": 16,
+      "text": "데이터베이스운영",
+      "icon": "fas fa-cube"
+    },{
+      "id": 17,
+      "text": "서버운영",
+      "icon": "fas fa-cube"
+    },{
+      "id": 18,
+      "text": "전산자산관리",
+      "icon": "fas fa-cube"
+    },{
+      "id": 19,
+      "text": "정보보안",
+      "icon": "fas fa-cube"
+    },{
+      "id": 20,
+      "text": "정보화기획",
+      "icon": "fas fa-cube"
+      }]
+  }]
+}]
